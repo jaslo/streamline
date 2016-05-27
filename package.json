@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jaslo/streamline/issues"
   },
-  "homepage": "https://github.com/jaslo/streamline"
+  "homepage": "https://github.com/jaslo/streamline",
+  "dependencies": {
+    "q": "^1.4.1"
+  }
 }
