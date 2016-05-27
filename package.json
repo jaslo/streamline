@@ -1,0 +1,24 @@
+{
+  "name": "streamline",
+  "version": "1.0.0",
+  "description": "promise line reader",
+  "main": "streamline.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaslo/streamline.git"
+  },
+  "keywords": [
+    "promise",
+    "stream",
+    "line"
+  ],
+  "author": "Jason Loveman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaslo/streamline/issues"
+  },
+  "homepage": "https://github.com/jaslo/streamline"
+}
