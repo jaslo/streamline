@@ -77,7 +77,7 @@ function streamLine(instream, delimiter) {
 	this.readLine = function() {
 		var dfr = Q.defer();
 		if (blockdfr) {
-			Log.error("blockdfr is already set at readLine!!!");
+			console.error("blockdfr is already set at readLine!!!");
 			throw new Error("blockdfr already set at readLine!!!");
 		}
 		if (bufqueue.length || gotEnd) {
